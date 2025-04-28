@@ -29,6 +29,10 @@ export const InputField: React.FC<InputFieldProps> = ({
                 <input
                     type={type}
                     {...props}
+                    style={{
+                        height : props.height,
+                        width: props.width
+                    }}
                 />
                 {isIconRight && (
                     <div className="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">

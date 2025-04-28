@@ -4,7 +4,7 @@ import { InputField } from "../../../components/pageComponents/inputField/InputF
 
 export const EventList = () => {
     return <section>
-        <InputField />
+        <InputField label="Event name" height="35px" width="500px" placeholder="Enter the event name"/>
         <Buttoncomponent label="Create event"/>
     </section>
 };
